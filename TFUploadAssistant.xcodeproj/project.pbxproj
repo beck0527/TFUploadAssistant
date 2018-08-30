@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C8F95D465D4B6459E421C29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCE66CC7FE30D84E5FF86A8 /* libPods.a */; };
-		A27D8B1D1CFD317A004ADF35 /* TFUcloudUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D8B1C1CFD317A004ADF35 /* TFUcloudUploadOperation.m */; };
 		B04487431CA225C400A69650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B04487421CA225C400A69650 /* main.m */; };
 		B04487461CA225C400A69650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B04487451CA225C400A69650 /* AppDelegate.m */; };
 		B04487491CA225C500A69650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04487481CA225C500A69650 /* ViewController.m */; };
@@ -30,6 +28,7 @@
 		B0D0F9651CA245E800E36A52 /* TFAsyncRun.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0F9641CA245E800E36A52 /* TFAsyncRun.m */; };
 		B0D0F9681CA2657900E36A52 /* TFPHAssetFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0F9671CA2657900E36A52 /* TFPHAssetFile.m */; };
 		B0D0F96C1CA26BD000E36A52 /* TFResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0F96B1CA26BD000E36A52 /* TFResponseInfo.m */; };
+		BA16262D7B0EFD299BE3F257 /* libPods-TFUploadAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BF3DE22EE4A85C7DC13A2C /* libPods-TFUploadAssistant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F603378C43A5FC3E421DB95 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		4D9A8144483DAE73B6B898F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5E25618948AEAFDA039B108D /* Pods-TFUploadAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFUploadAssistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFUploadAssistant/Pods-TFUploadAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		A246320F1CF83F0F00A76E11 /* TFUploadOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFUploadOperationProtocol.h; sourceTree = "<group>"; };
-		A27D8B1B1CFD317A004ADF35 /* TFUcloudUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFUcloudUploadOperation.h; sourceTree = "<group>"; };
-		A27D8B1C1CFD317A004ADF35 /* TFUcloudUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFUcloudUploadOperation.m; sourceTree = "<group>"; };
 		B044873E1CA225C400A69650 /* TFUploadAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFUploadAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04487421CA225C400A69650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B04487441CA225C400A69650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,7 +93,8 @@
 		B0D0F9691CA2662300E36A52 /* TFFileProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFileProtocol.h; sourceTree = "<group>"; };
 		B0D0F96A1CA26BD000E36A52 /* TFResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFResponseInfo.h; sourceTree = "<group>"; };
 		B0D0F96B1CA26BD000E36A52 /* TFResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFResponseInfo.m; sourceTree = "<group>"; };
-		BDCE66CC7FE30D84E5FF86A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BF3DE22EE4A85C7DC13A2C /* libPods-TFUploadAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TFUploadAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3BD147638A7B163EE2EC9A /* Pods-TFUploadAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFUploadAssistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFUploadAssistant/Pods-TFUploadAssistant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B069E00A1CA388F000AF90E6 /* MobileCoreServices.framework in Frameworks */,
-				9C8F95D465D4B6459E421C29 /* libPods.a in Frameworks */,
+				BA16262D7B0EFD299BE3F257 /* libPods-TFUploadAssistant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,22 +124,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		427C4A2A964933B0B1DF1E79 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3F603378C43A5FC3E421DB95 /* Pods.debug.xcconfig */,
-				4D9A8144483DAE73B6B898F5 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		84A2B1F77E870DCD10FD016F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B069E0091CA388F000AF90E6 /* MobileCoreServices.framework */,
-				BDCE66CC7FE30D84E5FF86A8 /* libPods.a */,
+				D1BF3DE22EE4A85C7DC13A2C /* libPods-TFUploadAssistant.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D6CFE96E1508C665C6C715 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E25618948AEAFDA039B108D /* Pods-TFUploadAssistant.debug.xcconfig */,
+				FD3BD147638A7B163EE2EC9A /* Pods-TFUploadAssistant.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B04487351CA225C400A69650 = {
@@ -152,8 +149,8 @@
 				B044875A1CA225C500A69650 /* TFUploadAssistantTests */,
 				B04487651CA225C500A69650 /* TFUploadAssistantUITests */,
 				B044873F1CA225C400A69650 /* Products */,
-				427C4A2A964933B0B1DF1E79 /* Pods */,
 				84A2B1F77E870DCD10FD016F /* Frameworks */,
+				A1D6CFE96E1508C665C6C715 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,8 +221,6 @@
 				B07BC8D11CA27FD500589743 /* TFAliUploadOperation.m */,
 				B07BC8D31CA27FEA00589743 /* TFUploadHandler.h */,
 				B07BC8D41CA27FEA00589743 /* TFUploadHandler.m */,
-				A27D8B1B1CFD317A004ADF35 /* TFUcloudUploadOperation.h */,
-				A27D8B1C1CFD317A004ADF35 /* TFUcloudUploadOperation.m */,
 			);
 			path = TFUploadAssistant;
 			sourceTree = "<group>";
@@ -268,12 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B044876B1CA225C500A69650 /* Build configuration list for PBXNativeTarget "TFUploadAssistant" */;
 			buildPhases = (
-				EF2D6A62DB64F4C007571F53 /* Check Pods Manifest.lock */,
+				C0FE20FE2FB08C32510C8544 /* [CP] Check Pods Manifest.lock */,
 				B044873A1CA225C400A69650 /* Sources */,
 				B044873B1CA225C400A69650 /* Frameworks */,
 				B044873C1CA225C400A69650 /* Resources */,
-				91EBA847E3E4C2854B7BC640 /* Embed Pods Frameworks */,
-				B151A226D51531040AC615BB /* Copy Pods Resources */,
+				E663B62B757FFB334B59325F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,49 +385,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		91EBA847E3E4C2854B7BC640 /* Embed Pods Frameworks */ = {
+		C0FE20FE2FB08C32510C8544 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFUploadAssistant-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B151A226D51531040AC615BB /* Copy Pods Resources */ = {
+		E663B62B757FFB334B59325F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TFUploadAssistant/Pods-TFUploadAssistant-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TFPhotoBrowser/TFLibraryResource.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TFLibraryResource.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF2D6A62DB64F4C007571F53 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFUploadAssistant/Pods-TFUploadAssistant-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -455,7 +442,6 @@
 				B07BC8CF1CA27F8700589743 /* NSData+TFMD5.m in Sources */,
 				B0D0F9651CA245E800E36A52 /* TFAsyncRun.m in Sources */,
 				B07BC8D51CA27FEA00589743 /* TFUploadHandler.m in Sources */,
-				A27D8B1D1CFD317A004ADF35 /* TFUcloudUploadOperation.m in Sources */,
 				B07BC8C41CA2718A00589743 /* TFFile.m in Sources */,
 				B0D0F9521CA2362700E36A52 /* TFFileRecorder.m in Sources */,
 				B0D0F96C1CA26BD000E36A52 /* TFResponseInfo.m in Sources */,
@@ -597,7 +583,7 @@
 		};
 		B044876C1CA225C500A69650 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F603378C43A5FC3E421DB95 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 5E25618948AEAFDA039B108D /* Pods-TFUploadAssistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -614,7 +600,7 @@
 		};
 		B044876D1CA225C500A69650 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D9A8144483DAE73B6B898F5 /* Pods.release.xcconfig */;
+			baseConfigurationReference = FD3BD147638A7B163EE2EC9A /* Pods-TFUploadAssistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

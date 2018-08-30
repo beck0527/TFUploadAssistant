@@ -186,7 +186,7 @@ enum {
         request.networkAccessAllowed = YES;
         request.synchronous = YES;
         
-        
+
         [[PHImageManager defaultManager] requestImageDataForAsset:asset
                                                           options:request
                                                     resultHandler:
@@ -194,7 +194,7 @@ enum {
              
              
              NSString *filename = [[asset valueForKey:@"filename"] lowercaseString];
-             
+ 
              //BOOL isHEIF = [dataUTI isEqualToString:@"public.heic"] || [dataUTI isEqualToString:@"public.heif"];
              
              BOOL isHEIF = [filename containsString:@"heic"] || [filename containsString:@"heif"];
@@ -336,7 +336,7 @@ enum {
  */
 - (NSData *)enhanceImage:(NSData *)data orientation:(UIImageOrientation)orientation phasset:(PHAsset *)asset
 {
-    
+
     NSData* tmpData = data;
     
     CIImage *enhanceImage = [CIImage imageWithData:tmpData];
@@ -359,7 +359,7 @@ enum {
                          compress:NO];
     
     CGImageRelease(cgImage);
-    
+
     return tmpData;
 }
 
@@ -411,10 +411,10 @@ enum {
     CGImageSourceRef imageSource = CGImageSourceCreateWithData((CFDataRef)imageData,  NULL);
     CGImageRef imageRef = CGImageSourceCreateImageAtIndex(imageSource, 0, NULL);
     NSData* tmpData = [self dataFromImage:imageRef
-                                 metadata:metaData
-                                 mimetype:self.mimeType
-                                  phAsset:asset
-                                 compress:YES];
+                         metadata:metaData
+                         mimetype:self.mimeType
+                          phAsset:asset
+                         compress:YES];
     CFRelease(imageRef);
     CFRelease(imageSource);
     
@@ -476,7 +476,7 @@ enum {
         CFMutableDictionaryRef properties = CFDictionaryCreateMutable(nil, 0,
                                                                       &kCFTypeDictionaryKeyCallBacks,  &kCFTypeDictionaryValueCallBacks);
         
-        
+      
         
         for (NSString *key in metadata) {
             CFDictionarySetValue(properties, (__bridge const void *)key,
@@ -518,4 +518,3 @@ enum {
 }
 
 @end
-

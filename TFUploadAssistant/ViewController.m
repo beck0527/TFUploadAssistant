@@ -13,8 +13,8 @@
 #import "TFConfiguration.h"
 #import <CommonCrypto/CommonDigest.h>
 //#import "TFUcloudUploadAssistant.h"
-#import "UFileAPIUtils.h"
-#import "UFileAPI.h"
+//#import "UFileAPIUtils.h"
+//#import "UFileAPI.h"
 
 #define kAliBucketHostId            @"oss-cn-hangzhou.aliyuncs.com"
 #define kAliEndPoint                @"http://oss-cn-hangzhou.aliyuncs.com"
@@ -104,7 +104,7 @@
         
         [array addObject:asset.phAsset];
         //melvin/test-0602-19/%@.%@
-        NSString* key = [NSString stringWithFormat:@"%@-1104-001.%@",asset.md5,asset.fileExtension];
+        NSString* key = [NSString stringWithFormat:@"%@-1104-003.%@",asset.md5,asset.fileExtension];
         [keyArray addObject:key];
     }
     
@@ -137,7 +137,6 @@
                                  success:(BOOL)success {
     //TFULogDebug
     NSLog(@"%@", key);
-    
     
     //NSLog(@"token : %@ upload over info:%@",token,info);
     NSTimeInterval endTime = [[NSDate date] timeIntervalSince1970];
